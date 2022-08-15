@@ -1,19 +1,17 @@
 # Anaglyph
 Aplicação com Visualização 3D por Anaglifo
 
-/* REALIDADE VIRTUAL E AUMENTADA 2021.1
+ REALIDADE VIRTUAL E AUMENTADA 2021.1
    LAISY CRISTINA
    ANAGLYPH
-*/
 
-/* COMANDOS LINUX
+COMANDOS LINUX
 
 gcc anaglyph.c -o anaglyph -lGL -lglut -lm -lGLU -lOpenGL
 ps aux | rg Xorg   
 ./anaglyph   
 
-OBS: Gnome sobre Xorg
-*/
+OBS: View Gnome sobre Xorg
 
 A estratégia é: 
 -gerar duas instancias de visualização do objeto: um na cor vermelha e outro na cor azul.
